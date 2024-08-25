@@ -28,7 +28,7 @@ class QuranContextToWords:
         
         try:
             # Load Quran from csv into a dataframe
-            self._quran_data = pd.read_csv('quran_nlp/data/arabic-original.csv', sep='|', header='infer');
+            self._quran_data = pd.read_csv('csv dataset', sep='|', header='infer');
         except:
             print('Failed to load the quran book with err')
     
